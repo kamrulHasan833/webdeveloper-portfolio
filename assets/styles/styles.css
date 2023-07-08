@@ -1,0 +1,250 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Common Styles */
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.container-large {
+  max-width: 1440px;
+}
+
+.desc {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 10px 0 20px;
+}
+.desc-mini {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+section {
+  padding: 130px 0 0;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.btn-primary {
+  background: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 36px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.btn-secondary {
+  background: transparent;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  margin-left: 20px;
+}
+/* Header Styles Start */
+.header {
+  background: #fff8f3;
+  background-image: url("/assets/images/developer.png"),
+    url("/assets/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: 50px, bottom right;
+}
+
+/* Menu Related Styles */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-link {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 25px;
+}
+.web-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.web-title span {
+  color: #fd6e0a;
+}
+/* Banner Related Styles */
+.banner {
+  padding: 65px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.banner-img img {
+  max-width: 500px;
+  margin-right: -150px;
+  margin-bottom: -5px;
+}
+
+/* Main Body Styles */
+/* About us Styles */
+.about-us {
+  text-align: center;
+}
+.about-us .container {
+  background: #fff8f3;
+  padding: 130px 157px;
+}
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.about-info .desc {
+  margin: 0;
+}
+.about-info p.desc {
+  font-weight: 700;
+  color: #181818;
+}
+
+/* Skills styles */
+.skill-area {
+  margin: auto;
+}
+.skill-area .desc {
+  max-width: 909px;
+  margin: 20px auto;
+}
+.skills {
+  display: flex;
+  gap: 20px;
+  padding-top: 40px;
+}
+.skill {
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px 0px #f1f1f1;
+}
+.skill-subtitle {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+/* Resume Styles */
+.resume .section-title {
+  padding-bottom: 80px;
+}
+.resume-wrapper {
+  display: flex;
+  gap: 35px;
+}
+.education-title,
+.experience-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.education-subtitle,
+.experience-subtitle {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.passing-year {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.download-btn {
+  max-width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+hr {
+  border: 1px solid #d1d1d1;
+  margin: 20px 0;
+}
+.education .education-level:last-child hr,
+.experience .experience-level:last-child hr {
+  border: none;
+  margin: 0;
+}
+/* Footer Styles */
+.footer {
+  background: #fff8f3;
+  padding: 125px 0;
+  margin-top: 120px;
+}
+.footer .container {
+  display: flex;
+}
+.footer-social-media {
+  flex-basis: 50%;
+}
+.footer-form {
+  flex-basis: 50%;
+}
+.footer .section-title {
+  margin-bottom: 30px;
+  text-align: left;
+}
+input {
+  display: block;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background: white;
+}
+textarea {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+input:focus,
+textarea:focus {
+  outline: 1px solid #53b5fd;
+}
+@media screen and (max-width: 1770px) {
+  .header {
+    overflow: hidden;
+  }
+}
